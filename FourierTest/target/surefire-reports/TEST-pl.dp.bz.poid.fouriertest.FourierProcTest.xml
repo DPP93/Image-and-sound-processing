@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="8" failures="0" name="pl.dp.bz.poid.fouriertest.FourierProcTest" time="0.342" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\Frameworki\Java\jdk\jre\bin"/>
+    <property name="java.vm.version" value="25.73-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\POID\POID SVN\trunk\FourierTest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="PL"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\POID\POID SVN\trunk\FourierTest"/>
+    <property name="java.runtime.version" value="1.8.0_73-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\Frameworki\Java\jdk\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Daniel\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="maven.ext.class.path" value="D:\Programy\NetBeans 8.1\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="D:\Frameworki\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.library.path" value="D:\Frameworki\Java\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;%JAVA_HOME%\bin;D:\Frameworki\apache-maven-3.3.9\bin;D:\Programy\MatLab\runtime\win64;D:\Programy\MatLab\bin;D:\Programy\MatLab\polyspace\bin;D:\Programy\Tortoise SVN\bin;D:\Programy\MongoDB\bin;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;D:\Programy\Python\Scripts\;D:\Programy\Python\;D:\Programy\MiKTeX\miktex\bin\;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Daniel"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Daniel"/>
+    <property name="java.class.path" value="D:\Frameworki\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\Frameworki\Java\jdk\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=D:\Programy\NetBeans 8.1\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pl"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_73"/>
+    <property name="java.ext.dirs" value="D:\Frameworki\Java\jdk\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Frameworki\Java\jdk\jre\lib\resources.jar;D:\Frameworki\Java\jdk\jre\lib\rt.jar;D:\Frameworki\Java\jdk\jre\lib\sunrsasign.jar;D:\Frameworki\Java\jdk\jre\lib\jsse.jar;D:\Frameworki\Java\jdk\jre\lib\jce.jar;D:\Frameworki\Java\jdk\jre\lib\charsets.jar;D:\Frameworki\Java\jdk\jre\lib\jfr.jar;D:\Frameworki\Java\jdk\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Frameworki\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="pl.dp.bz.poid.fouriertest.FourierProcTest" name="shouldReturnFalseWhenImageOusideLeft" time="0.249"/>
+  <testcase classname="pl.dp.bz.poid.fouriertest.FourierProcTest" name="shouldReturnTrueWhenImageIsInsideBorders" time="0"/>
+  <testcase classname="pl.dp.bz.poid.fouriertest.FourierProcTest" name="testTableTwoConversion" time="0.031"/>
+  <testcase classname="pl.dp.bz.poid.fouriertest.FourierProcTest" name="shouldReturnFalseWhenImageOusideTop" time="0.016"/>
+  <testcase classname="pl.dp.bz.poid.fouriertest.FourierProcTest" name="shouldReturnFalseWhenImageOusideRight" time="0"/>
+  <testcase classname="pl.dp.bz.poid.fouriertest.FourierProcTest" name="testTableOneConversion" time="0.015"/>
+  <testcase classname="pl.dp.bz.poid.fouriertest.FourierProcTest" name="shouldReturnFalseWhenImageOusideBottom" time="0.016"/>
+  <testcase classname="pl.dp.bz.poid.fouriertest.FourierProcTest" name="shouldReturnFalseWhenImageOusideLeftCorner" time="0.015"/>
+</testsuite>
